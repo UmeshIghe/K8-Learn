@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: worker-app-deploy
   labels:
-    name: orker-app-deploy
+    name: worker-app-deploy
     app: demo-voting-app
 spec:
   replicas: 1
